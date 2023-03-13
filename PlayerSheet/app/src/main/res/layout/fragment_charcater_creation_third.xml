@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CharcaterCreationThirdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        style="@style/AppTheme.letters"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/stats"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/life"
+        style="@style/AppTheme.letters"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:hint="@string/total_pv"
+        android:inputType="number"
+        ></EditText>
+    <EditText
+        android:id="@+id/madness"
+        style="@style/AppTheme.letters"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="50dp"
+        android:hint="@string/total_pl"
+        android:inputType="number"
+        ></EditText>
+    <EditText
+        android:id="@+id/magic"
+        style="@style/AppTheme.letters"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="50dp"
+        android:hint="@string/total_pm"
+        android:inputType="number"
+        ></EditText>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="340dp"/>
+
+</FrameLayout>

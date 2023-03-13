@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">1800 El Ocaso: Player Sheet</string>
+    <string name="add">Add Character</string>
+    <string name="select">Select</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chanel_name">Resultado</string>
+    <string name="chanel_description">Resultados de tirar dados</string>
+
+    <string name="add_character">Nuevo Personaje</string>
+    <string name="character_sheet">Ficha de Personaje</string>
+    <string name="character_selector">Selector de Personaje</string>
+
+    <string name="primaries">PRIMARIAS</string>
+    <string name="lvl">NIVEL</string>
+    <string name="fue">FUE</string>
+    <string name="des">DES</string>
+    <string name="con">CON</string>
+    <string name="inte">INT</string>
+    <string name="ate">ATE</string>
+    <string name="pod">POD</string>
+
+    <string name="life">VIDA</string>
+    <string name="mad">LOCURA</string>
+    <string name="magic">MAGIA</string>
+    <string name="secundaries">SECUNDARIAS</string>
+
+    <string name="inventory">INVENTARIO</string>
+    <string name="money">MONEDAS</string>
+    <string name="new_item">Nuevo item</string>
+    <string name="ammount">+/- Cantidad</string>
+    <string name="plus">+</string>
+    <string name="plus_minus">+/-</string>
+
+    <string name="modify_stats">MODIFICAR STATS</string>
+    <string name="pv">+/-pv</string>
+    <string name="pl">+/-pl</string>
+    <string name="pm">+/-pm</string>
+
+    <string name="dexterity">Destreza</string>
+    <string name="inteligence">Inteligencia</string>
+    <string name="constitution">Constitución</string>
+    <string name="attention">Atención</string>
+    <string name="strnght">Fuerza</string>
+    <string name="power">Poder</string>
+    <string name="sleep">dormir</string>
+    <string name="d20">D20</string>
+    <string name="d10">D10</string>
+
+    <string name="rol">rol</string>
+    <string name="battle">batalla</string>
+    <string name="actions_b">Acciones de Batalla</string>
+    <string name="actions_r">Acciones de Roleplay</string>
+
+    <string name="name">Nombre</string>
+    <string name="surname">Apellido</string>
+    <string name="lvl_lower">Nivel</string>
+    <string name="money_lower">Monedas</string>
+
+    <string name="total_pv">Puntos de Vida Totales</string>
+    <string name="total_pl">Puntos de Locura Totales</string>
+    <string name="total_pm">Puntos de Magia Totales</string>
+    <string name="stats">STATS</string>
+
+    <string name="next">--></string>
+    <string name="back">Volver</string>
+
+    <string name="results">resultados:</string>
+
+    <string name="error">Error: %s</string>
+    <string name="error1">Se ha producido un error</string>
+    <string name="error2">No has seleccionado ninguna imagen</string>
+
+    <string name="character_life">life</string>
+    <string name="character_madness">mad</string>
+    <string name="character_magic">magic</string>
+
+    <string name="erase">Eliminar personaje</string>
+
+</resources>

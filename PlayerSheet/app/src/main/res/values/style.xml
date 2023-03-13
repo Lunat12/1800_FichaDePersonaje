@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.letters" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/orange_grey</item>
+        <item name="android:textColorHint">@color/orange_grey</item>
+    </style>
+
+    <style name="AppTheme.buttons" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@color/orange_grey</item>
+        <item name="android:backgroundTint">@color/orange_pale</item>
+    </style>
+
+</resources>

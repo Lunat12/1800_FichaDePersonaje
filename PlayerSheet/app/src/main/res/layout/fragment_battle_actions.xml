@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BattleActions">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/AppTheme.letters"
+        android:text="Acciones de Batalla"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/dex"
+            style="@style/AppTheme.buttons"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dexterity">
+
+        </Button>
+        <Button
+            android:id="@+id/inte"
+            style="@style/AppTheme.buttons"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/inteligence"
+            android:layout_marginLeft="50dp">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/con"
+            style="@style/AppTheme.buttons"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/constitution">
+
+        </Button>
+        <Button
+            android:id="@+id/ate"
+            style="@style/AppTheme.buttons"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/attention"
+            android:layout_marginLeft="50dp">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp">
+
+        <Button
+            android:id="@+id/strg"
+            style="@style/AppTheme.buttons"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/strnght">
+
+        </Button>
+        <Button
+            android:id="@+id/pow"
+            style="@style/AppTheme.buttons"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/power"
+            android:layout_marginLeft="50dp">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp">
+
+        <Button
+            android:id="@+id/d10"
+            style="@style/AppTheme.buttons"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/d10">
+
+        </Button>
+        <Button
+            android:id="@+id/d20"
+            style="@style/AppTheme.buttons"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/d20"
+            android:layout_marginLeft="50dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</FrameLayout>
